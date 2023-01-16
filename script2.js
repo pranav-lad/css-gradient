@@ -11,8 +11,5 @@ function setgradient(){
       color2.value+")"
       css.textContent = body.style.background + ";";
 }
-
-
 color1.addEventListener("input",setgradient)
-
 color2.addEventListener("input",setgradient)
